@@ -1,5 +1,9 @@
 # RHCSA Course
 
+### Increase Swap-Size
+
+https://linuxconfig.org/redhat-8-increase-swap-size
+
 ### Recover Root Password
 
 ```
