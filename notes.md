@@ -1,5 +1,22 @@
 # RHCSA Course
 
+### Recover Root Password
+
+https://linuxconfig.org/redhat-8-recover-root-password
+
+type e and enter:
+rd.break
+
+mount | grep sysroot
+
+mount -o remount,rw /sysroot/
+mount | grep sysroot
+
+chroot /sysroot
+
+touch /.autorelabel
+
+
 ### Local and Remote Logins
 
 #### Commands Introduced
