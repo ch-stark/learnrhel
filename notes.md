@@ -2,6 +2,7 @@
 
 ### Recover Root Password
 
+```
 https://linuxconfig.org/redhat-8-recover-root-password
 
 type e and enter:
@@ -15,7 +16,7 @@ mount | grep sysroot
 chroot /sysroot
 
 touch /.autorelabel
-
+```
 
 ### Local and Remote Logins
 
