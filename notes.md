@@ -1,5 +1,12 @@
 # RHCSA Course
 
+How to use Tar Command in Linux with example
+https://www.interserver.net/tips/kb/use-tar-command-linux-examples/
+
+e.g
+# tar -cvzf Videos.tar ./Latest/
+
+
 ### Increase Swap-Size
 
 https://linuxconfig.org/redhat-8-increase-swap-size
