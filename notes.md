@@ -1,5 +1,6 @@
 # RHCSA Course
 
+
 # Override default umask configuration
 if [ $UID -gt 299 ] && [ "`id -gn`" = "`id -un`" ]; then
     umask 007
