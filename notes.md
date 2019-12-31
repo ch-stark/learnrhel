@@ -1,8 +1,16 @@
 # RHCSA Course
 
-### How to create a Sudouser
-echo "%adminuser ALL=(ALL) ALL" >> /etc/sudoers.d/adminuser
+# Override default umask configuration
+if [ $UID -gt 299 ] && [ "`id -gn`" = "`id -un`" ]; then
+    umask 007
+else
+    umask 022
+fi
 
+
+### How to create a Sudouser
+
+echo "%adminuser ALL=(ALL) ALL" >> /etc/sudoers.d/adminuser
 
 How to use Tar Command in Linux with example
 https://www.interserver.net/tips/kb/use-tar-command-linux-examples/
