@@ -1,5 +1,9 @@
 # RHCSA Course
 
+# Emrrgengy Mode
+https://www.thegeekdiary.com/how-to-boot-into-rescue-mode-or-emergency-mode-through-systemd-in-centos-rhel-7-and-8/
+systemd.unit=emergency.target 
+
 
 # Override default umask configuration
 if [ $UID -gt 299 ] && [ "`id -gn`" = "`id -un`" ]; then
