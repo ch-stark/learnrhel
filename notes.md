@@ -1,6 +1,6 @@
 # RHCSA Course
 
-# Emrrgengy Mode
+# Emergengy Mode
 https://www.thegeekdiary.com/how-to-boot-into-rescue-mode-or-emergency-mode-through-systemd-in-centos-rhel-7-and-8/
 systemd.unit=emergency.target 
 
