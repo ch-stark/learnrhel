@@ -1,5 +1,8 @@
 # RHCSA Course
 
+http://linuxadventures.com/rhcsa-questions-answers-example-exam-2019
+
+
 # Emergengy Mode
 https://www.thegeekdiary.com/how-to-boot-into-rescue-mode-or-emergency-mode-through-systemd-in-centos-rhel-7-and-8/
 systemd.unit=emergency.target 
