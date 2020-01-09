@@ -1,5 +1,8 @@
 # RHCSA Course
 
+good link:
+https://www.tecmint.com/extend-and-reduce-lvms-in-linux/
+
 parted, gdisk, or fdisk are quite similar.  Will use parted
 
 
