@@ -1,5 +1,8 @@
 # RHCSA Course
 
+parted, gdisk, or fdisk are quite similar.  Will use parted
+
+
 http://linuxadventures.com/rhcsa-questions-answers-example-exam-2019
 
 
