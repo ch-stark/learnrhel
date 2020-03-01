@@ -51,7 +51,7 @@ mount -o remount,rw /sysroot/
 mount | grep sysroot
 
 chroot /sysroot
-
+ change the pw
 touch /.autorelabel
 ```
 
